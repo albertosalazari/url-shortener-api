@@ -3,14 +3,14 @@ package url.shortener.services
 import url.shortener.domain.UrlEntity
 import url.shortener.domain.UrlRequest
 import url.shortener.domain.UrlResponse
-import url.shortener.repository.ShortenerRepository
+import url.shortener.repository.UrlRepository
 import url.shortener.utils.ShortenerUtility
 import jakarta.inject.Inject
 import jakarta.transaction.Transactional
 import jakarta.ws.rs.core.Response
 
 @Inject
-private var repository = ShortenerRepository()
+private var repository = UrlRepository()
 
 @Transactional
 class ShortenerService {

@@ -8,4 +8,5 @@ object Params {
     const val CUSTOM_URL = "customUrl"
     const val IS_CUSTOM = "is_custom"
     const val ID = "id"
+    const val SHORT_URL = "shortUrl"
 }
